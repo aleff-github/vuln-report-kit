@@ -3,7 +3,7 @@
   "name": "Vuln Report Kit",
   "version": "1.0.0",
   "minAppVersion": "1.6.0",
-  "description": "Local-first toolkit for vulnerability cases, reports, templates, secret review, sanitization, dashboards and exports inside Obsidian.",
+  "description": "Local-first toolkit for vulnerability research notes, responsible disclosure reports, secret scanning, sanitized public exports, templates, dashboards, and case backups.",
   "author": "Aleff",
   "isDesktopOnly": false
 }
