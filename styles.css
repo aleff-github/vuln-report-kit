@@ -1,0 +1,14 @@
+.vrk-scan-table {
+  width: 100%;
+}
+
+.vrk-muted {
+  opacity: 0.75;
+}
+
+.vrk-warning {
+  font-weight: 600;
+}
+
+/* v0.6.0 polish helpers */
+.vrk-demo-note { opacity: 0.9; }

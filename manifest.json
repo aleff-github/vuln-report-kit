@@ -1,0 +1,9 @@
+{
+  "id": "vuln-report-kit",
+  "name": "Vuln Report Kit",
+  "version": "1.0.0",
+  "minAppVersion": "1.6.0",
+  "description": "Local-first toolkit for vulnerability cases, reports, templates, secret review, sanitization, dashboards and exports inside Obsidian.",
+  "author": "Aleff",
+  "isDesktopOnly": false
+}
