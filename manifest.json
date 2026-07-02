@@ -1,7 +1,7 @@
 {
   "id": "vuln-report-kit",
   "name": "Vuln Report Kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.6.0",
   "description": "Local-first toolkit for vulnerability research notes, responsible disclosure reports, secret scanning, sanitized public exports, templates, dashboards, and case backups.",
   "author": "Aleff",
