@@ -2,7 +2,7 @@
 
 **Vuln Report Kit** is a local-first Obsidian plugin for vulnerability research notes, disclosure reports, secret review, sanitization, templates, dashboards, timelines, and portable exports.
 
-Version: **1.0.0**
+Version: **1.0.1**
 
 ## What it is
 
