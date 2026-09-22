@@ -1,11 +1,11 @@
 {
   "name": "vuln-report-kit",
-  "version": "1.0.0",
-  "description": "Local-first Obsidian plugin for vulnerability cases, reports, templates, secret review, sanitization, dashboards and exports.",
+  "version": "1.1.0",
+  "description": "Local-first toolkit for vulnerability cases, reports, templates, secret review, sanitization, dashboards and exports.",
   "main": "main.js",
   "scripts": {
-    "dev": "echo 'This MVP ships as plain main.js. Copy manifest.json, main.js and styles.css into your vault plugin folder.'",
-    "build": "echo 'No build step required for this MVP.'"
+    "dev": "echo 'This plugin ships as plain main.js. Copy manifest.json, main.js and styles.css into your vault plugin folder.'",
+    "build": "echo 'No build step required.'"
   },
   "keywords": [
     "obsidian",
@@ -14,6 +14,6 @@
     "security"
   ],
   "author": "Aleff",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "devDependencies": {}
 }
