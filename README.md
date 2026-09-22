@@ -1,50 +1,66 @@
 # Vuln Report Kit
 
-**Vuln Report Kit** is a local-first Obsidian plugin for vulnerability research notes, disclosure reports, secret review, sanitization, templates, dashboards, timelines, and portable exports.
+**Vuln Report Kit** is a free, local-first toolkit for vulnerability research notes, disclosure reports, secret review, sanitization, templates, dashboards, timelines, and portable exports.
 
-Version: **1.0.1**
+Everything is stored as Markdown files inside your vault.
 
 ## What it is
 
-Vuln Report Kit turns an Obsidian vault into a structured workspace for vulnerability research documentation. It is designed for responsible disclosure notes, bug bounty writeups, CVE research notes, public article drafts, and sanitized report preparation.
+Vuln Report Kit helps you keep vulnerability research documentation structured and repeatable. It is designed for responsible disclosure notes, bug bounty writeups, CVE research notes, public article drafts, and sanitized report preparation.
 
-The plugin is intentionally simple: it works with Markdown files inside your vault and does not require any server, account, cloud database, API key, external AI service, or license server.
+It does **not** automate scanning or exploitation. The focus is documentation, reporting, organization, and safer sharing.
 
-## Core workflow
+The plugin does not require any server, account, cloud database, API key, external AI service, telemetry, or license server.
 
-1. Create a vulnerability case.
-2. Document target, reproduction, impact, evidence, remediation, and timeline.
-3. Track cases with a local dashboard.
-4. Use starter or professional templates.
-5. Generate a final Markdown report.
-6. Scan locally for possible secrets.
-7. Create a sanitized public copy.
-8. Export bundles, shareable folders, indexes, and template backups.
+## Interface modes
 
-## Main commands
+Vuln Report Kit has two modes.
+
+### Light mode
+
+Light mode is the default. It shows only the essential workflow commands:
 
 ```text
 Vuln Report Kit: Create vulnerability case
 Vuln Report Kit: Open quick start guide
-Vuln Report Kit: Create demo vulnerability case
 Vuln Report Kit: Run local health check
 Vuln Report Kit: Open vulnerability dashboard
 Vuln Report Kit: Update current case status
+Vuln Report Kit: Generate final Markdown report for current case
+Vuln Report Kit: Scan current case for secrets
+Vuln Report Kit: Create sanitized public copy
+```
+
+### Advanced mode
+
+Advanced mode enables extra tools for templates, exports, backups, demos, and utilities:
+
+```text
+Vuln Report Kit: Create demo vulnerability case
 Vuln Report Kit: Open templates folder
 Vuln Report Kit: Install starter template pack
 Vuln Report Kit: Import template pack from vault folder
 Vuln Report Kit: Create note from template
 Vuln Report Kit: Insert template into current note
 Vuln Report Kit: Insert report section
-Vuln Report Kit: Generate final Markdown report for current case
-Vuln Report Kit: Scan current case for secrets
-Vuln Report Kit: Create sanitized public copy
 Vuln Report Kit: Open exports folder
 Vuln Report Kit: Export current case bundle
 Vuln Report Kit: Create shareable case archive
 Vuln Report Kit: Export all cases index
 Vuln Report Kit: Backup templates
 ```
+
+You can switch mode from the plugin settings. After changing mode, reload the plugin to refresh the visible commands.
+
+## Core workflow
+
+1. Create a vulnerability case.
+2. Document target, reproduction, impact, evidence, remediation, and timeline.
+3. Track cases with a local dashboard.
+4. Generate a final Markdown report.
+5. Scan locally for possible secrets.
+6. Create a sanitized public copy.
+7. In Advanced mode, use template packs, exports, backups, and shareable archives.
 
 ## Generated case structure
 
@@ -74,7 +90,7 @@ secret-scan-report.md
 
 ## Template packs
 
-The plugin includes a starter template pack and supports importing local template packs into:
+The plugin includes a starter template pack and supports importing optional custom or advanced local template packs into:
 
 ```text
 Vulnerability Research/_templates/
@@ -145,24 +161,35 @@ The plugin does not require:
 - cloud database;
 - API key;
 - external AI service;
+- telemetry;
 - license server.
 
-Everything is stored as local files inside the Obsidian vault.
+Everything is stored as local files inside the vault.
 
 ## Important security note
 
-Secret scanning and sanitization are helper features, not a guarantee that a report is safe to publish. Always manually review public reports and shareable archives before sending or publishing them.
+Secret scanning and sanitization are helper features, not a guarantee that a report is safe to publish. Always manually review public reports, screenshots, attachments, and shareable archives before sending or publishing them.
 
 ## Recommended first test
 
 Use a clean test vault and run:
 
 ```text
-Vuln Report Kit: Create demo vulnerability case
+Vuln Report Kit: Create vulnerability case
 Vuln Report Kit: Open vulnerability dashboard
 Vuln Report Kit: Generate final Markdown report for current case
 Vuln Report Kit: Scan current case for secrets
 Vuln Report Kit: Create sanitized public copy
+```
+
+Then enable Advanced mode and test:
+
+```text
+Vuln Report Kit: Install starter template pack
+Vuln Report Kit: Create note from template
 Vuln Report Kit: Export all cases index
 ```
 
+## License
+
+GPL-3.0.
