@@ -114,6 +114,21 @@ Supported template variables include:
 {{case_folder}}
 ```
 
+## Advanced Template Pack
+
+An optional **Advanced Template Pack** can be imported in Advanced mode. It extends the built-in starter templates with specialized report formats, disclosure communication templates, review checklists, CMS/API templates, vulnerability-specific reports, and publication drafts.
+
+The pack is still completely local and does not require a server, account, API key, or license check.
+
+To import it:
+
+1. Enable **Advanced** mode in the plugin settings and reload the plugin.
+2. Extract the template pack inside your vault.
+3. Run `Vuln Report Kit: Import template pack from vault folder`.
+4. Select the pack's `templates` folder.
+
+You can also build and import your own custom template packs.
+
 ## Secret scanner and sanitizer
 
 The scanner is local and regex-based. It can flag possible:
